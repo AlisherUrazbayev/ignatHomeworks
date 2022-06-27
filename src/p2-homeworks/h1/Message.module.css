@@ -1,0 +1,43 @@
+.message {
+    display: flex;
+    flex-direction: row;
+    background-color: greenyellow;
+    max-width: 20%;
+}
+
+.image {
+    width: 14%;
+    height: 15%;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid black;
+    transform: translateY(3px);
+}
+
+.textContainer {
+    background-color: darkslategrey;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.time {
+    align-self: flex-end;
+    color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text {
+    color: white;
+    flex: 2;
+    display: inline-block;
+}
+
+.name {
+    color: cornflowerblue;
+    width: 100%;
+}

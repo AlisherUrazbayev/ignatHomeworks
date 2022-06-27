@@ -1,0 +1,19 @@
+.someClass {
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.error {
+    border: 1px solid red;
+
+}
+
+.unhide {
+    display: block;
+    color: red;
+}
